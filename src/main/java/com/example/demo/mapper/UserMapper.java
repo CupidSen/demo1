@@ -65,9 +65,4 @@ public interface UserMapper {
      */
     @Select("select * from ClubMember")
     public List<ClubMember> MemberQuery();
-    /**
-     * 查询成员列表
-     */
-    @Select("select * from ClubMember")
-    public List<ClubMember> MemberQuery();
 }
